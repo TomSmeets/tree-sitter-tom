@@ -1,0 +1,8 @@
+[[language]]
+name="tom"
+scope="source.tom"
+file-types=["tom"]
+
+[[grammar]]
+name="tom"
+source = { path = "$CURRENT_PATH" }

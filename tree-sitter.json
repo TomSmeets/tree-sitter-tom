@@ -1,0 +1,32 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "tom",
+      "camelcase": "Tom",
+      "title": "Tom",
+      "scope": "source.tom",
+      "file-types": [ "tom" ],
+      "injection-regex": "^tom$",
+      "highlights": "highlights.scm",
+      "class-name": "TreeSitterTom"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tom grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Tom Smeets",
+        "email": "Tom Smeets",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/TomSmeets/tree-sitter-tom",
+      "funding": ""
+    }
+  },
+  "bindings": { "c": true }
+}
