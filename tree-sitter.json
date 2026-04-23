@@ -19,14 +19,9 @@
     "authors": [
       {
         "name": "Tom Smeets",
-        "email": "Tom Smeets",
-        "url": ""
+        "email": "Tom Smeets"
       }
-    ],
-    "links": {
-      "repository": "https://github.com/TomSmeets/tree-sitter-tom",
-      "funding": ""
-    }
+    ]
   },
   "bindings": { "c": true }
 }
