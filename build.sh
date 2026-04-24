@@ -1,3 +1,5 @@
+set -euo pipefail
+
 # Build treesitter
 tree-sitter generate
 tree-sitter build
